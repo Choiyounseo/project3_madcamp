@@ -1,0 +1,660 @@
+body {
+    /* background-image: url("https://st2.depositphotos.com/1011833/6102/i/950/depositphotos_61028163-stock-photo-coffee-cup-top-view-on.jpg");
+    background-size: cover; */
+    overflow-x: hidden;
+}
+/* background-color: #ECEFF1; */
+
+/* Home(App) background image */
+#home_image {
+  margin-top: 150px;
+  margin-left: 400px;
+}
+
+/* Header */
+.kahveshot{
+  background-color: red;
+  padding: 0px 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+#headerlist p {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+#mypage {
+  margin-right: 10px;
+}
+
+#firstgrid {
+  background-color: #f6f5ef;
+}
+
+#secondgrid {
+  backgroud-color: #f6f5ef;
+}
+
+/* mypage */
+.mypage_table{
+    margin:auto;
+    width: 80%
+}
+
+.mypage_table li{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+.mypage_table .menu_coffee_name{
+    position: relative;
+    margin-top: 50px;
+    width: 91.5%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #455a64;
+}
+
+/* Store(매장정보 관련)-> 매장소개 */
+#store_box {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 75%;
+    display: inline-block;
+}
+
+.boss_box {
+    margin-bottom: 50px;
+}
+
+.store_locate_img {
+    margin-left: 50px;
+}
+
+.store_sentence {
+    margin-top: 160px;
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+/* Coffee */
+#coffeelist {
+    top: 50px;
+    left: 20px;
+    margin: auto;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.coffee_table {
+    top: 100px;
+    left: 100px;
+    margin-bottom: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+.coffee_img {
+    position: relative;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.coffee_sentence {
+    margin-top: 25px;
+    margin-left: 60px;
+    width: 500px;
+    float: right;
+}
+
+.coffee_sentence h10{
+   font-size: 25px;
+   font-weight: bold;
+   font-style: italic;
+   font-family: fantasy;
+}
+
+.coffee_sentence p{
+    font-size: 15px;
+}
+
+.coffee_button button{
+    height: 50px;
+    width: 200px;
+    /* background-color: red; */
+    background-color: #455a64;
+    color: white;
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* .memo  */
+.info {
+    font-size: 18px;
+    padding: 20px 20px 40px 20px;
+    color: #90A4AE;
+    top: 100px;
+}
+
+/* .memo */
+ .info .username {
+    color: #263238;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* .memo */
+ .card-content {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.icon-button {
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    color: #C5C5C5;
+}
+
+.icon-button:hover {
+    color: #C5C5C5;
+}
+
+.icon-button:active {
+    color: #ff9800;
+}
+
+/* .memo  */
+.option-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* .memo  */
+.card-content {
+    font-size: 18px;
+}
+
+/* .memo  */
+.footer {
+    border-top: 1px solid #ECECEC;
+    height: 45px;
+}
+
+.star {
+    position: relative;
+    left: 15px;
+    top: 11px;
+}
+
+.star-count {
+    position: relative;
+    left: 20px;
+    top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777;
+}
+
+/* Brick */
+
+.brick_info{
+  float : right;
+  width: 600px;
+  margin-top: 100px;
+
+}
+
+.brick_img {
+     margin-top: 200px;
+}
+
+.brick_info h2{
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.3;
+    margin:24px 0;
+}
+.brick_info h5{
+  display: inline-block;
+  background: red;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  padding:5px 8px;
+}
+
+.brick_info p {
+    /* width: 600px; */
+    font-weight: 150;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-size:17px;
+}
+
+#btn-price{
+  font-size: 24px;
+  margin-right: 10px;
+  display: inline-block;
+  border:2px solid red;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 21px;
+  color : red;
+}
+#btn-find{
+  background: #F5F5F7;
+  display: inline-block;
+  padding: 30px;
+  color: #1b1b1b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  min-height: 30px;
+  position: relative;
+  top: -5px;
+  min-width: 49$;
+}
+
+/* Menulist */
+#menulist {
+  top: 50px;
+  left: 100px;
+  margin: auto;
+  width: 60%;
+  display: inline-block;
+  z-index: 5;
+  position: relative;
+}
+
+.menu_coffee .menu_coffee_name{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 91.5%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #455a64;
+}
+
+h3{
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: monospace;
+    font-style: normal;
+    color: white;
+    font-weight: bold;
+    /* background-color: #a90315; */
+}
+
+#menu_pic {
+  margin-left: 50px;
+}
+
+h10 {
+  display:inline-block;
+  font-size:15px;
+  text-align: center;
+  color: #263238;
+}
+
+/* Authentication */
+.auth {
+  margin-top: 50px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    font-weight: 100;
+    font-size: 80px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+a.logo {
+    color: #5B5B5B;
+}
+
+a {
+    cursor: pointer;
+}
+
+.auth .card {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 480px) {
+  .auth .card {
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 60px;
+  }
+}
+
+.auth .header {
+    font-size: 18px;
+}
+
+.auth .row {
+    margin-bottom: 0px;
+}
+
+.auth .username {
+  margin-top: 0px;
+}
+
+.auth .btn {
+    width: 90%;
+}
+
+.auth .footer {
+    border-top: 1px solid #E9E9E9;
+    padding-bottom: 21px;
+}
+
+/* wrapper */
+.wrapper {
+    margin-top: 20px;
+}
+
+/* WRITE */
+
+.write .materialize-textarea {
+    padding: 0px;
+    padding-bottom: 36px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+.write .card-content {
+    padding-bottom: 10px;
+}
+
+.write .card-action {
+    text-align: right;
+}
+
+
+/* Memo */
+
+/* .memo .info {
+    font-size: 18px;
+    padding: 20px 20px 40px 20px;
+    color: #90A4AE;
+}
+
+.memo .info .username {
+    color: #263238;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.memo .card-content {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.icon-button {
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+.icon-button:hover {
+    color: #C5C5C5;
+}
+
+.icon-button:hover {
+    color: #C5C5C5;
+}
+
+.icon-button:active {
+    color: #ff9800;
+}
+
+.memo .option-button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.memo .card-content {
+    font-size: 18px;
+}
+
+.memo .footer {
+    border-top: 1px solid #ECECEC;
+    height: 45px;
+}
+
+.star {
+    position: relative;
+    left: 15px;
+    top: 11px;
+}
+
+.star-count {
+    position: relative;
+    left: 20px;
+    top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #777;
+} */
+
+
+/* ANIMATION */
+@-webkit-keyframes memo-enter {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes memo-enter {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.memo-enter {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: memo-enter;
+    animation-name: memo-enter;
+}
+
+/* ANIMATION */
+@-webkit-keyframes memo-leave {
+    0% {
+      opacity: 1;
+      max-height: 1080px;
+    }
+    50% {
+      opacity: 0;
+       -webkit-transform: translateX(100px);
+    }
+    100% {
+        max-height: 0px;
+    }
+}
+
+@keyframes memo-leave {
+    0% {
+      opacity: 1;
+      max-height: 1080px;
+    }
+    50% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+        max-height: 0px;
+    }
+}
+
+.memo-leave {
+    max-height: 0px;
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: memo-leave;
+    animation-name: memo-leave;
+}
+
+
+/* WALL HEADER */
+.empty-page {
+    font-size: 30px;
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.wall-info {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/* SEARCH */
+.search-screen {
+    position: fixed;
+    overflow-y: none;
+    left: 0px;
+    top: 0px;
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.70);
+    z-index: 99;
+}
+
+.search-screen input {
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+    margin-top: 10vw;
+    height: 80px;
+    font-weight: 200;
+}
+
+.search-screen .btn {
+    margin-top: 14px;
+    margin-right: 20px;
+}
+
+ul.search-results {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.search-results a {
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.search-results a + a {
+    border-top: 1px solid #5F5F5F;
+}
+
+.search-results a:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+@-webkit-keyframes search-enter {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+      opacity: 1;
+      height: 100%;
+    }
+}
+
+@keyframes search-enter {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+      opacity: 1;
+      height: 100%;
+    }
+}
+
+.search-enter {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-name: search-enter;
+    animation-name: search-enter;
+}
+
+@-webkit-keyframes search-leave {
+    0% {
+      opacity: 1;
+      height: 100%;
+    }
+    100% {
+      opacity: 0;
+      height: 0%;
+    }
+}
+
+@keyframes search-leave {
+    0% {
+      opacity: 1;
+      height: 100%;
+    }
+    100% {
+      opacity: 0;
+      height: 0%;
+    }
+}
+
+.search-leave {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-name: search-leave;
+    animation-name: search-leave;
+}
